@@ -32,7 +32,7 @@ O objetivo do projeto é replicar o funcionamento de um fórum de perguntas e re
 ### 1. Criar Tópico
 
 - **Método**: POST
-- **Endpoint**: `/api/topicos`
+- **Endpoint**: `/topicos`
 - **Descrição**: Cria um novo tópico no fórum.
 - **Exemplo de Request**:
   ```json
@@ -46,25 +46,25 @@ O objetivo do projeto é replicar o funcionamento de um fórum de perguntas e re
 ### 2. Listar Todos os Tópicos
 
 - **Método**: GET
-- **Endpoint**: `/api/topicos`
+- **Endpoint**: `/topicos`
 - **Descrição**: Retorna todos os tópicos criados.
 
 ### 3. Exibir Tópico Específico
 
 - **Método**: GET
-- **Endpoint**: `/api/topicos/{id}`
+- **Endpoint**: `/topicos/{id}`
 - **Descrição**: Retorna detalhes de um tópico específico.
 
 ### 4. Atualizar Tópico
 
 - **Método**: PUT
-- **Endpoint**: `/api/topicos/{id}`
+- **Endpoint**: `/topicos/{id}`
 - **Descrição**: Atualiza os dados de um tópico específico.
 
 ### 5. Eliminar Tópico
 
 - **Método**: DELETE
-- **Endpoint**: `/api/topicos/{id}`
+- **Endpoint**: `/topicos/{id}`
 - **Descrição**: Exclui um tópico específico.
 
 ---
